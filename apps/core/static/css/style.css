@@ -14222,7 +14222,7 @@ body:not(.device-touch) .tagcloud a {
 .wedding-head .and {
 	display: inline-block;
 	margin-right: 15px;
-	font-weight: bold;
+	
 	text-align: right;
 	text-transform: uppercase;
 	letter-spacing: 2px;
