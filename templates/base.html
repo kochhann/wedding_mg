@@ -15,13 +15,19 @@
 	<link rel="stylesheet" href="{% static 'css/font-icons.css' %}" type="text/css" />
 	<link rel="stylesheet" href="{% static 'css/animate.css' %}" type="text/css" />
 	<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" type="text/css" />
-
-	<link rel="stylesheet" href="{% static 'css/custom.css' %}" type="text/css" />
+<!--	<link rel="stylesheet" href="{% static 'css/custom.css' %}" type="text/css" />-->
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Document Title
 	============================================= -->
 	<title>Nosso Casamento | Gabrielle & Maicon</title>
+	<style>
+		p.mobile { display: none }
+		@media (max-width: 640px) {
+			p.mobile { display: block }
+			p.desktop { display: none }
+		}
+	</style>
 
 </head>
 
@@ -51,7 +57,8 @@
 						<div class="wedding-head clearfix">
 							<div class="first-name">Maicon<span>Motta</span></div>
 							<div class="and">&amp;</div>
-							<div class="last-name">Gabrielle<span>Gomez Motta</span></div>
+							<div class="last-name"><p class="desktop">Gabrielle<span>Gomez Motta</span></p></div>
+							<div class="last-name"><p class="mobile">Gabby<span>Gomez Motta</span></p></div>
 						</div>
 
 						<div class="divider divider-sm divider-center"><i class="icon-heart3"></i></div>
@@ -75,22 +82,6 @@
 				<div class="container">
 					<div class="header-row justify-content-lg-center">
 
-						<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-						<!-- Primary Navigation
-						============================================= -->
-<!--						<nav class="primary-menu style-2">-->
-
-<!--							<ul class="menu-container one-page-menu" data-speed="750">-->
-<!--								<li class="menu-item"><a class="menu-link" href="#" data-href="#most-toppest"><div>Start</div></a></li>-->
-<!--								<li class="menu-item"><a class="menu-link" href="#" data-href="#section-couple"><div>O Casal</div></a></li>-->
-<!--								<li class="menu-item"><a class="menu-link" href="#" data-href="#section-gallery"><div>Galeira</div></a></li>-->
-<!--								<li class="menu-item"><a class="menu-link" href="#" data-href="#section-events"><div>Events Schedule</div></a></li>-->
-<!--								<li class="menu-item"><a class="menu-link" href="#" data-href="#section-locations"><div>Locations</div></a></li>-->
-<!--								<li class="menu-item"><a class="menu-link" href="#" data-href="#section-rsvp"><div>Confirmações</div></a></li>-->
-<!--							</ul>-->
-
-<!--						</nav>&lt;!&ndash; #primary-menu end &ndash;&gt;-->
 
 					</div>
 				</div>
@@ -103,39 +94,6 @@
 		<section id="content">
 			<div class="content-wrap">
 				<div class="container clearfix">
-
-<!--					<div id="section-couple" class="heading-block text-center page-section">-->
-<!--						<h2>Os Noivos</h2>-->
-<!--						<span>Um pouquinho sobre o casal</span>-->
-<!--					</div>-->
-
-<!--					<div class="row col-mb-50 mb-0">-->
-<!--						<div class="col-lg-6">-->
-<!--							<div class="team team-list row">-->
-<!--								<div class="team-image col-sm mb-4 mb-sm-0" style="max-width: 150px;">-->
-<!--									<img class="rounded-circle" src="{% static 'images/wedding/17.jpg' %}" alt="Bryant Kellam">-->
-<!--								</div>-->
-<!--								<div class="team-desc col-sm">-->
-<!--									<div class="team-title"><h4>Maicon Mota</h4></div>-->
-<!--									<div class="team-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, pariatur, magni! Omnis reiciendis architecto, cupiditate fuga dolores nam accusamus iste molestias quos mollitia totam eius porro culpa incidunt, sunt rerum molestiae aliquid non hic.</div>-->
-<!--									<div class="line topmargin-sm mb-0"></div>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</div>-->
-
-<!--						<div class="col-lg-6">-->
-<!--							<div class="team team-list row">-->
-<!--								<div class="team-image col-sm mb-4 mb-sm-0" style="max-width: 150px;">-->
-<!--									<img class="rounded-circle" src="{% static 'images/wedding/18.jpg' %}" alt="Leanna Pyburn">-->
-<!--								</div>-->
-<!--								<div class="team-desc col-sm">-->
-<!--									<div class="team-title"><h4>Gaby Gomes</h4></div>-->
-<!--									<div class="team-content">Blanditiis adipisci laudantium reiciendis distinctio, molestiae, illum. Aut eveniet assumenda expedita labore nulla commodi numquam perspiciatis, amet doloribus cum sint, quisquam possimus eos aspernatur distinctio similique perferendis.</div>-->
-<!--									<div class="line topmargin-sm mb-0"></div>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--					</div>-->
 
 					<div class="clear"></div>
 
